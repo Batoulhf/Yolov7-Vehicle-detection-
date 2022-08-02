@@ -22,7 +22,10 @@ Next, we'll download our dataset in the right format. Use the YOLOv7 PyTorch exp
 !python train.py --batch 16 --cfg cfg/training/yolov7.yaml --epochs 100 --data {dataset.location}/data.yaml --weights 'yolov7.pt' --device 0
 
 ```
-
+### Testing
+```
+!python test.py --data /data.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights /best.pt --name yolov7_640_val
+```
 ### Evaluation
 We can evaluate the performance of our custom training using the provided evalution script
 ```
