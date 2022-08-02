@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+4aaf3c451b1704706b61a658d954c4389511d5d0 refs/remotes/origin/check_tensor_cores
+272f959e952d3f695943bf6d3101c227dd9604a0 refs/remotes/origin/darknet
+cc42a206ef4c4d0cc4998d496123daa6953e0b15 refs/remotes/origin/main
+d05e8ba88d325ffa59265186b573f201b49b3574 refs/remotes/origin/pytorch
+a6215c0dbb8a6b06cbf7a5698ebe1e65f6540f5c refs/remotes/origin/u5
+9a00c173a44bfcf3a58cc2a60e37deb6a1fb9e03 refs/tags/v0.1
