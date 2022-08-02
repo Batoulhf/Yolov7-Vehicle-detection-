@@ -26,6 +26,8 @@ Next, we'll download our dataset in the right format. Use the YOLOv7 PyTorch exp
 ```
 !python test.py --data /data.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights /best.pt --name yolov7_640_val
 ```
+![Image](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/test/Metrics/test_labels.jpg)
+
 ### Evaluation
 We can evaluate the performance of our custom training using the provided evalution script
 ```
@@ -45,3 +47,5 @@ On image:
 ```
 python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
 ```
+
+
