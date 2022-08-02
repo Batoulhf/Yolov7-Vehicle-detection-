@@ -42,6 +42,7 @@ On video :
 ```
 python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourvideo.mp4
 ```
+![Video](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/detect/Video/vid3_Trim_Trim%20(1).gif)
 
 On image:
 ```
