@@ -46,7 +46,11 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourvid
 
 On image:
 ```
-python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
+python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourimage.jpg
 ```
 
+![Image](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/detect/Images/image291_jpg.rf.83ec2f34acfb6f568d1bf4c7f66dc26f.jpg))
+![Image2](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/detect/Images/B-1080p--26-_jpg.rf.83d7cf8e213fe2829303613e735aa3ce.jpg)
 
+## Confustion matrix
+![Image](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/test/Metrics/confusion_matrix.png)
