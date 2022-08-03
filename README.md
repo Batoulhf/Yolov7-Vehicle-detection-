@@ -35,6 +35,20 @@ We can evaluate the performance of our custom training using the provided evalut
 
 ```
 
+```
+!python test.py --data data.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights runs/train/exp/weights/best.pt 
+```
+#### Performance table
+| Class      | Precision | Recall | mAP@.5 |
+| :----------|:---------:|:------:|-------:|
+| All        | 0.93      | 0.97   | 0.98   |
+| Bus        | 0.97      | 1      | 0.99   |
+| Car        | 0.89      | 0.96   | 0.97   |
+| Motorcycle | 0.87      | 1      | 0.98   |
+| Truck      | 0.93      | 0.95   | 0.98   |
+| Van        | 0.99      | 0.96   | 0.99   |
+
+
 ### Inference
 
 On video : 
