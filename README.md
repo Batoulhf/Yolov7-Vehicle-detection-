@@ -29,7 +29,7 @@ Next, we'll download our dataset in the right format. Use the YOLOv7 PyTorch exp
 ![Image](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/test/Metrics/test_labels.jpg)
 
 ### Evaluation
-We can evaluate the performance of our custom training using the provided evalution script
+We can evaluate the performance of our custom training/testing using the provided evalution script
 ```
 !python detect.py --weights runs/train/exp/weights/best.pt --conf 0.1 --source {dataset.location}/test/images
 
