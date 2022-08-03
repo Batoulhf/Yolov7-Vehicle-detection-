@@ -53,4 +53,6 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourima
 ![Image2](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/detect/Images/B-1080p--26-_jpg.rf.83d7cf8e213fe2829303613e735aa3ce.jpg)
 
 ## Confustion matrix
+The performance results of our algorithm are supported by this matrix, it represents numbers from predicted and actual values. The diagonal elements represent the number of points for which the predicted label is equal to the actual label. It can be seen that the diagonal values are high, indicating many correct predictions. While the off-diagonal ”FP and FN” elements are the mislabeled ones. the false positive value ≪ FP ≫ indicates the number of actual negative examples classified as positive, and the false negative value ≪ FN ≫ is the number of actual positive examples classified as negative.
+
 ![Image](https://github.com/Batoulhf/Yolov7-Vehicle-detection-/blob/main/Detection%20results/test/Metrics/confusion_matrix.png)
